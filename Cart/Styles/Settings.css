@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #333;
+}
+
+/* Container Styling */
+.settings-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.settings-container h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.success-msg {
+    color: green;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Label and Input Styling */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+input[type="checkbox"] {
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #6e8efb;
+    outline: none;
+}
+
+/* Button Styling */
+button[type="submit"] {
+    background-color: #6e8efb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #556cd6;
+}
+
+/* Responsive Styling */
+@media (max-width: 480px) {
+    .settings-container {
+        padding: 1.5rem;
+    }
+
+    .settings-container h2 {
+        font-size: 1.5rem;
+    }
+}
