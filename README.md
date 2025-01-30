@@ -5,3 +5,4 @@ While running the website in the register.php file add your email and app specif
 In this i developed chatbot.
 In this i developed instant chat application which can used to send messages between the seller and students.
 In this students can directly contact seller via phone call or email or messages.
+To run this website Xampp server is must.
